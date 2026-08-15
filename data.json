@@ -1,0 +1,45 @@
+{
+  "skills": [
+    {
+      "icon": "fa-solid fa-microchip",
+      "title": "Embedded Systems",
+      "description": "Firmware and driver-level work across common microcontroller families.",
+      "tools": ["ARM", "AVR", "Arduino", "RTOS"]
+    },
+    {
+      "icon": "fa-solid fa-tower-broadcast",
+      "title": "IoT Development",
+      "description": "Connecting devices to the cloud without burning the battery budget.",
+      "tools": ["ESP32", "LoRa", "BLE", "MQTT"]
+    },
+    {
+      "icon": "fa-solid fa-layer-group",
+      "title": "PCB Design",
+      "description": "Schematic to layout, with an eye on manufacturability and cost.",
+      "tools": ["Altium", "KiCad", "DFM"]
+    },
+    {
+      "icon": "fa-solid fa-wave-square",
+      "title": "Software & DSP",
+      "description": "From automation scripts to control loops and filter design.",
+      "tools": ["C/C++", "Python", "MATLAB", "Simulink", "VHDL/Verilog"]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Industrial IoT Monitoring System",
+      "description": "A scalable industrial monitoring solution on STM32 with vibration analysis, temperature monitoring and predictive maintenance, communicating over encrypted MQTT.",
+      "tech": ["STM32", "FreeRTOS", "MQTT", "DSP"]
+    },
+    {
+      "title": "Smart Agriculture Controller",
+      "description": "A low-power agricultural controller with LoRa connectivity for remote field monitoring — soil moisture sensing, automated irrigation and solar MPPT power management.",
+      "tech": ["ESP32", "LoRaWAN", "MPPT", "KiCad"]
+    },
+    {
+      "title": "Biomedical Wearable Prototype",
+      "description": "A wearable health monitor with ECG, SpO2 and skin temperature sensing, running at 3µA sleep current with BLE connectivity to a companion app.",
+      "tech": ["nRF52", "BLE 5.2", "Altium", "Low-Power"]
+    }
+  ]
+}
